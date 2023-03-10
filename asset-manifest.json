@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Excel-Table/static/css/main.2022713a.css",
+    "main.js": "/Excel-Table/static/js/main.a9b1cbaa.js",
+    "index.html": "/Excel-Table/index.html",
+    "main.2022713a.css.map": "/Excel-Table/static/css/main.2022713a.css.map",
+    "main.a9b1cbaa.js.map": "/Excel-Table/static/js/main.a9b1cbaa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2022713a.css",
+    "static/js/main.a9b1cbaa.js"
+  ]
+}
