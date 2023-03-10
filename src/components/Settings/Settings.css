@@ -1,0 +1,103 @@
+.settingContainer{
+  position: fixed;
+  right: 0;top: 0;bottom: 0;
+  margin: auto;
+  width: 80px;
+  height: 400px;
+  border: 2px solid black;
+  background-color: aquamarine;
+  transition: 1s;
+  border-radius: 5px;
+
+
+}
+.sett_wrap{
+  display: block;
+  position: absolute;
+  top: 0;bottom: 0;left: -40px;
+  margin: auto;
+  height: 40px;
+  width: 40px;
+  font-size: 30px;
+  background-color: rgb(230, 230, 230);
+  border: 2px solid rgb(11, 11, 11);
+  border-radius: 5px;
+}
+
+.settingContainer_block{
+  width: 100%;
+  padding: 20px 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+}
+.btn_set_bColor, .btn_set_AlignText, .btn_set_del{
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+
+
+}
+
+.settingContainer_block input{
+  width: 100%;
+  height: 100%;
+  border-radius:5px;
+
+}
+.btn_set_AlignText, .btn_set_del{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5px 0;
+  box-sizing: border-box;
+  position: relative;
+  font-size: 25px;
+}
+
+.btnAlignText_span{
+  display: block;
+  width: 45px;
+  height: 5px;
+  background-color: black;
+
+
+}
+.textL, .textC, .textR {
+  background-color: rgba(15, 14, 14, 0.716);
+  color: aliceblue;
+  font-size: 45px;
+  width: 50px;
+  height: 50px;
+  left: 5px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.alignConteiner{
+  display: none;
+  position: absolute;
+  left:-200px;
+  gap:10px;
+
+
+
+}
+.alignConteiner-active{
+  display: flex;
+  position: absolute;
+
+}
+
+
+
+
+.notSlide{
+right: -84px;
+
+
+}
